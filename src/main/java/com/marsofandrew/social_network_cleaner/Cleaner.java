@@ -1,6 +1,6 @@
 /**
  * Created by marsofandrew (Andrew Petrov)
- *
+ * <p>
  * 2019-12-30
  */
 
@@ -56,6 +56,7 @@ public class Cleaner {
                     .filter(predicate)
                     .forEach(entry -> ids.add(entry.getKey()));
 
+            System.out.printf("%d posts will be deleted", ids.size());
             for (Integer id : ids) {
                 vkApiClient.wall()
                         .delete(userActor)
