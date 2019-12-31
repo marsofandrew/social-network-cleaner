@@ -1,3 +1,9 @@
+/**
+ * Created by marsofandrew (Andrew Petrov)
+ *
+ * 2019-12-30
+ */
+
 package com.marsofandrew.social_network_cleaner;
 
 import com.fasterxml.jackson.databind.JsonNode;

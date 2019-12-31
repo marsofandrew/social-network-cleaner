@@ -1,14 +1,16 @@
+/**
+ * Created by marsofandrew (Andrew Petrov)
+ *
+ * 2019-12-30
+ */
+
 package com.marsofandrew.social_network_cleaner;
 
-import com.google.gson.JsonObject;
 import com.vk.api.sdk.client.TransportClient;
 import com.vk.api.sdk.client.VkApiClient;
 import com.vk.api.sdk.client.actors.UserActor;
-import com.vk.api.sdk.exceptions.ApiException;
-import com.vk.api.sdk.exceptions.ClientException;
 import com.vk.api.sdk.httpclient.HttpTransportClient;
 import com.vk.api.sdk.objects.wall.responses.GetResponse;
-import com.vk.api.sdk.queries.EnumParam;
 import com.vk.api.sdk.queries.wall.WallGetFilter;
 
 import java.util.*;

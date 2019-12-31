@@ -1,3 +1,9 @@
+/**
+ * Created by marsofandrew (Andrew Petrov)
+ *
+ * 2019-12-31
+ */
+
 package com.marsofandrew.social_network_cleaner;
 
 import com.vk.api.sdk.client.actors.UserActor;
